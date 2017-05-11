@@ -7,7 +7,7 @@ from genderize import Genderize
 from pprint import pprint
 import time
 
-from LFWgender.config import API_KEY, ROOTDIR, MALE_FOLDER, FEMALE_FOLDER
+from config import API_KEY, ROOTDIR, MALE_FOLDER, FEMALE_FOLDER
 
 # It is highly recommended to use an API key for genderize because of the large amount of names
 gender = Genderize(api_key=API_KEY)
