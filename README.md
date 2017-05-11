@@ -6,7 +6,7 @@ Getting the known gender based on name of each image in the [**Labeled Faces in 
 This is a python script that calls the genderize.io API with the first name of the person in the image. If the confidence is more than 90% the file gets copied to the corresponding gender folder: male/female.
 The image is ignored if the name is not found in the genderize.io database.
 
-Change from master project
+Change from [master](https://github.com/Pletron/LFWgender) project
 - Added genderize python library and API Key
 - Slightly more verbose output
 
